@@ -2,6 +2,7 @@ body {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
   background: white;
   font-size: 16px;
+  line-height: 3.75em;
 }
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .25em;
@@ -14,22 +15,18 @@ p, ul, li, a {
 }
 h1 {
   font-size: 2.75em;
-  line-height: 1.25em;
 }
 h1.page-header {
   margin-top: .25em;
   color: rgba(51, 102, 102, .25);
-  border-bottom: .05em solid rgba(51, 102, 102, .25);
   font-size: 2em;
 }
 h2 {
   font-size: 2.5em;
-  line-height: 1.25em;
 }
 h3 {
   margin-top: .5em;
   font-size: 2.25em;
-  border-bottom: .05em solid rgba(51, 102, 102, .25);
 }
 h4 {
   font-size: 2em;
