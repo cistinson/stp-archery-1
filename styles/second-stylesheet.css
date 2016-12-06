@@ -46,7 +46,6 @@ ROWS AND COLUMNS STYLE
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-between;
 }
 .row:after {
   content: "";
@@ -64,7 +63,7 @@ ROWS AND COLUMNS STYLE
 .column-1of5 {width: 20%; flex-direction: column; align-items: center;}
 .column-2of5 {width: 40%;}
 .column-3of5 {width: 60%;}
-.column-4of5 {width: 80%; flex-direction: column; align-items: center;}}
+.column-4of5 {width: 80%; flex-direction: column; align-items: center;}
 .column-5of5 {width: 100%;}
 
 /*=================================================================================
@@ -170,7 +169,7 @@ nav a {
 SECTION STYLE
 ==================================================================================*/
 section {
-  margin: .5em auto;
+  margin: .5%;
   padding: 1em;
   width: 100%;
   height: 100%;
@@ -236,9 +235,10 @@ MEDIA QUERIES
 ==================================================================================*/
 /* Smartphones----------- */
 @media only screen 
-and (max-width: 450px) {
+and (max-width: 350px) {
   [class^='column-'] {
     float: left;
+    margin: 0;
     padding: .5em;
     width: 100%;
     border-bottom: .1em solid rgba(255, 255, 255, .25);
@@ -255,20 +255,43 @@ and (max-width: 450px) {
     font-size: 2em;
     line-height: 1.15em;
   }
+  section {
+    width: 100%;
+  }
+  section img {
+    max-height: 100px;
+    object-fit: cover;
+  }
 }
  
 /* Tablets---------- */
 @media only screen
-and (max-width : 750px) {
-  section {
-    width: 80%;
-  }
+and (min-width : 351px)
+and (max-width : 775px) {
   body {
     font-size: 85%;
   }
   h1, h2, h3 {
     margin-bottom: .25em;
-    font-size: 2em;
-    line-height: 1.15em;
+    line-height: 1em;
   }
+    section {
+    width: 95%;
+  }
+  section img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  section.staff {
+    display: flex;
+    flex-direction: row;
+  }
+  section.staff img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  .column-1of5 {width: 100%; flex-direction: column; align-items: center;}
+  .column-4of5 {width: 100%; flex-direction: column; align-items: center;}
+  .column-5of5 {width: 100%; flex-direction: column; align-items: center;}
 }
