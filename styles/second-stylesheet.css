@@ -64,11 +64,11 @@ h1.page-header {
 h2 {
   font-size: 2.5em;
   line-height: 1.25em;
+  border-bottom: .05em solid rgba(51, 102, 102, .25);
 }
 h3 {
   margin-top: .5em;
   font-size: 2.25em;
-  border-bottom: .05em solid rgba(51, 102, 102, .25);
 }
 h4 {
   font-size: 2em;
