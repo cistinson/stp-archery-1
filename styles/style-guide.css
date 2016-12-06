@@ -1,0 +1,167 @@
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
+  background: white;
+  font-size: 16px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+  color: #cccc33;
+}
+section.typography h1, h2, h3 {
+  -webkit-text-stroke: 1px #336666;
+}
+h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  color: #336666;
+}
+p, ul, li, a {
+  font-family: 'Roboto', sans-serif;
+  color: #336666;
+}
+h1 {
+  font-size: 3.5em;
+}
+h1.main-heading {
+  font-size: 4em;
+  color: dimgrey;
+}
+h2 {
+  font-size: 3.3em;
+}
+h3 {
+  font-size: 3em;
+}
+h4 {
+  font-size: 2.8em;
+}
+h5 {
+  font-size: 2.5em;
+}
+h6 {
+  font-size: 2.3em;
+}
+p, ul, li, a {
+  font-size: 1em;
+}
+header {
+  padding: 25px;
+  display: block;
+  text-align: center;
+  background: #336666;
+  background-image: url(http://themoderncurio.com/wp-content/uploads/2014/08/nativeSymbols_Friendship1.png);
+  background-position: cover;
+  border-bottom: 10px solid #cccc33;
+}
+header img {
+  width: 10%;
+  padding: 20px;
+  display: inline;
+}
+header h1 {
+  text-align: left;
+  display: inline;
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+section {
+  margin: 0 2.5%;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+section.logo img {
+  width: 25%;
+}
+section.label {
+  line-height: 0px;
+  border-bottom: 2px solid lightgray;
+}
+h1.main-heading {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2em;
+  line-height: 5px;
+  color: darkgray;
+}
+section.colors {
+  text-align: center;
+}
+section.colors p {
+  color: rgba(0,0,0,.5);
+}
+.primarycolor {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  border-radius: 100%;
+  background: #336666;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.accentcolor {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  border-radius: 100%;
+  background: #ccffcc;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.accentcolor2 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  border-radius: 100%;
+  background: #cccc33;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.button1 {
+  width: 110px;
+  height: 15px;
+  margin: 1%;
+  padding: 1%;
+  background: #ccffcc;
+  font-weight: bold;
+  font-size: 1.15em;
+  line-height: normal;
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-button {
+  width: 50px;
+  height: 50px;
+  margin: 1%;
+  padding: .10%;
+  background: #ccffcc;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: normal;
+  border-radius: 100%;
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
