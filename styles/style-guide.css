@@ -4,6 +4,7 @@ body {
   font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .25em;
   font-family: 'Roboto Slab', serif;
   color: #336666;
 }
@@ -12,29 +13,43 @@ p, ul, li, a {
   color: #336666;
 }
 h1 {
-  font-size: 3.5em;
+  font-size: 2.75em;
+  line-height: 1.25em;
 }
-h1.main-heading {
-  font-size: 4em;
-  color: dimgrey;
-}
-h2 {
-  font-size: 3.3em;
-}
-h3 {
-  font-size: 3em;
-}
-h4 {
-  font-size: 2.8em;
-}
-h5 {
-  font-size: 2.5em;
-}
-h6 {
+h1.page-header {
+  margin-top: .25em;
+  color: rgba(51, 102, 102, .25);
+  border-bottom: .05em solid rgba(51, 102, 102, .25);
   font-size: 2em;
 }
-p, ul, li, a {
+h2 {
+  font-size: 2.5em;
+  line-height: 1.25em;
+}
+h3 {
+  margin-top: .5em;
+  font-size: 2.25em;
+  border-bottom: .05em solid rgba(51, 102, 102, .25);
+}
+h4 {
+  font-size: 2em;
+}
+h5 {
+  font-size: 1.75em;
+}
+h6 {
+  font-size: 1.5em;
+}
+p {
   font-size: 1em;
+}
+p.credit-creator {
+  font-size: 1em;
+  font-style: italic;
+  opacity: .5;
+}
+a {
+  text-decoration: none;
 }
 header {
   padding: 25px;
