@@ -45,6 +45,7 @@ FONT STYLE
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .25em;
   font-family: 'Roboto Slab', serif;
+  line-height: 1em;
   color: #336666;
 }
 p, ul, li, a {
@@ -56,9 +57,7 @@ h1 {
   line-height: 1.25em;
 }
 h1.page-header {
-  margin-top: .25em;
   color: rgba(51, 102, 102, .25);
-  border-bottom: .05em solid rgba(51, 102, 102, .25);
   font-size: 2em;
 }
 h2 {
@@ -248,7 +247,10 @@ section {
 ARTICLE STYLE
 ==================================================================================*/
 article p {
-  margin: 0 7%;
+  margin: 0 5%;
+}
+article img {
+  margin-bottom: .5em;
 }
 /*=================================================================================
 TABLE STYLE
@@ -314,8 +316,14 @@ and (max-width: 350px) {
   body {
     font-size: 85%;
   }
-  h1, h2, h3 {
+  h1 {
     font-size: 1.75em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1em;
   }
   section {
     width: 100%;
@@ -344,8 +352,8 @@ and (max-width : 775px) {
     margin-bottom: .25em;
     line-height: 1em;
   }
-  section {
-    width: 100%;
+  section img {
+    max-height: 150px;
   }
   .column-1of5 {width: 100%; flex-direction: column; align-items: center;}
   .column-2of5 {width: 100%; flex-direction: column; align-items: center;}
