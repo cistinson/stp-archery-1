@@ -231,6 +231,7 @@ audio:not([controls]) {
 
 img {
   border-style: none;
+  border-radius:5px;
 }
 
 /**
@@ -458,4 +459,13 @@ template {
 
 [hidden] {
   display: none;
+}
+
+/*
+ * Increased nav div height and centered content vertically (test change for Week )
+ */
+
+nav .row div{
+  height: 3rem;
+  vertical-align: middle;
 }
